@@ -99,3 +99,28 @@
         comment
 */
 ```
+
+
+## Token:-
+It is the smallest individual unit/element of a program.
+
+### Types of Tokens:-
+1. Identifiers
+1. Keywords
+1. Constants/Literals
+1. Operators
+1. Separators/Special Symbols
+
+
+## Identifier:-
+- It is a name used to identify:-
+    1. Variables
+    1. Functions/Methods
+    1. Classes
+    1. Objects
+    1. Namespaces
+
+```cs
+int age = 21;
+// here age is an Identifier
+```
