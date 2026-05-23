@@ -182,3 +182,11 @@ int age = 21;
 const float PI = 3.14f;
 const string MyName = "Shubham Bharde"; 
 ```
+
+
+## Keyword:-
+- It is reserved words whose meaning is already known by the compiler.
+
+- examples:- 
+
+    ``` int , float, string, if, else, break, continue, for, while, do, return, class, public, private, protected, enum  etc.``` 
