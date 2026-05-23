@@ -124,3 +124,61 @@ It is the smallest individual unit/element of a program.
 int age = 21;
 // here age is an Identifier
 ```
+
+
+## Variable:-
+- It is name given to memory location which acts as a container for storing data.
+
+```cs
+dataType variableName = value; 
+
+// example
+int age = 21;
+```
+
+### Variable Declaration:-
+- Creating a variable without assigning a value.
+
+```cs
+int age;
+```
+
+### Variable Initialization:-
+- Assigning a value to an already declared variable.
+
+```cs
+age = 21;
+```
+
+### Variable Declaration & Initialization
+- Declaring and assigning a value at the same time.
+
+```cs
+int age = 21;
+```
+
+### Types of Variable:-
+1. Local Variable
+1. Global Variable
+1. Instance Variable
+1. Static Variable
+
+```NOTE:- C# does not directly support true global variables.```
+
+### Naming Conventions for variable:- 
+1. First character must be start from alphabat or `$` or `_`.
+1. It can't start with a number.
+1. White spaces are not allowed
+1. Special symbols are not allowed other than `$`, `_`.
+1. Reserved keywords are not allowed.
+1. Variable names should be meaningful & descriptive.
+1. C# is case sensitive. It treats uppercase & lowercase letters differently. 
+
+
+## Constant:-
+- It is a value that can't be change during program execution.
+
+```cs
+const float PI = 3.14f;
+const string MyName = "Shubham Bharde"; 
+```
