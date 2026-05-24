@@ -266,3 +266,26 @@ int age = 21; // statement
 1. Ternary Operator (?:):-
     - ```[condition ? true : false]```
 
+
+## Type Casting/Conversion:-
+- It is the process of converting one type into another type.
+
+### Types of Type Casting:-
+1. Implicit Type Casting
+1. Explicit Type Casting
+
+### Implicit Casting:-
+- Automatically converts smaller datatype into larger datatype.
+
+```cs
+int num = 10;
+double d = num;
+```
+
+### Explicit Casting:-
+- Manually converts larger datatype into smaller datatype.
+
+```cs
+double d = 10.5;
+int num = (int)d;
+```
