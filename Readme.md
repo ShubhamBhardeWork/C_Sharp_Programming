@@ -289,3 +289,30 @@ double d = num;
 double d = 10.5;
 int num = (int)d;
 ```
+
+
+## Taking Input from User:-
+- Console.ReadLine();
+
+```cs
+Console.Write("Enter Your Name:- ");
+string name = Console.ReadLine();
+
+Console.Write("Enter Your Age:- ");
+int age = int.Parse(Console.ReadLine());
+
+Console.Write("Enter Your Standard:- ");
+int standard = Convert.ToInt32(Console.ReadLine());
+```
+
+
+## Print/Display Output on Console/Screen:-
+- Console.WriteLine();
+
+```cs
+// prints output on same line.
+Console.Write("Hello World."); 
+
+// prints output and moves cursor to next line.
+Console.WriteLine("Hello Coders.");
+```
