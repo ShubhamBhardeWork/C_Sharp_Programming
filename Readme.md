@@ -235,3 +235,34 @@ num1 + num2; // expression
 
 int age = 21; // statement
 ```
+
+
+## Operators:-
+- It is a symbol that performs some operation on operands.
+
+### Types of Operators:-
+1. Arithmetic Operators:-
+    - ```[+, -, *, /, %]```
+    - `% :- returns remainder`
+
+1. Assignment Operators:-
+    - ```[=, +=, -=, *=, /=, %= ]```
+
+1. Relational/Comparison Operators:-
+    - ```[<, >, <=, >=, ==, !=]```
+
+1. Logical Operators:-
+    - ```[&&, ||, !]```
+
+1. Bitwise Operators:-
+    - ```[&, |, ^, ~, <<, >>]```
+
+1. Increment / Decrement Operators:-
+    - ```[++, --]```
+
+1. String Operator:- used for string concatenation.
+    - ```[+]```
+
+1. Ternary Operator (?:):-
+    - ```[condition ? true : false]```
+
