@@ -212,3 +212,15 @@ Console.WriteLine("Age is:- " + age); // statement
 1. Conditional Statement
 1. Looping Statement
 1. Jump Statement
+
+
+## Expression:-
+- It is a combination of operands and operators that produces a value/result.
+
+```cs
+10 + 20; // expression
+ 
+age > 18; // expression
+
+num1 + num2; // expression
+```
