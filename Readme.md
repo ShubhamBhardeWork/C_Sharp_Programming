@@ -190,3 +190,25 @@ const string MyName = "Shubham Bharde";
 - examples:- 
 
     ``` int , float, string, if, else, break, continue, for, while, do, return, class, public, private, protected, enum  etc.``` 
+
+
+## Statement:-
+- It is a single executable instruction/line of code. 
+
+- Statements are executed one by one during program execution.
+
+- Most statements are terminated by (`;`).
+
+```cs
+int age = 21; // statement
+
+age++; // statement
+Console.WriteLine("Age is:- " + age); // statement
+```
+
+### Types of Statements:-
+1. Declaration Statement
+1. Assignment Statement
+1. Conditional Statement
+1. Looping Statement
+1. Jump Statement
