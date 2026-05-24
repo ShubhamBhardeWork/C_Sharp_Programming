@@ -224,3 +224,14 @@ age > 18; // expression
 
 num1 + num2; // expression
 ```
+
+
+## Statement vs Expression:-
+- Expression produces a value.
+- Statement performs an action.
+
+```cs
+10 + 20 // expression
+
+int age = 21; // statement
+```
