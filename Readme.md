@@ -327,3 +327,15 @@ Console.Write("Hello World.");
 // prints output and moves cursor to next line.
 Console.WriteLine("Hello Coders.");
 ```
+
+
+## Escape Sequence Characters:-
+- Escape sequence characters are special characters used with backslash (`\`) to perform special formatting in strings.
+
+1. `\n`:- New line
+1. `\t`:- 1 Tab (4 spaces)
+1. `\\`:- Backslash
+1. `\'`:- Single quote
+1. `\"`:- Double quote
+1. `\b`:- Backspace
+1. `\r`:- Carriage return
