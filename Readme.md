@@ -290,6 +290,17 @@ double d = 10.5;
 int num = (int)d;
 ```
 
+### Type Conversion Methods:-
+1. Convert.ToByte()
+1. Convert.ToInt16()
+1. Convert.ToInt32()
+1. Convert.ToInt64()
+1. Convert.ToSingle()
+1. Convert.ToDouble()
+1. Convert.ToDecimal()
+1. Convert.ToBoolean()
+1. Convert.ToChar()
+1. Convert.ToString()
 
 ## Taking Input from User:-
 - Console.ReadLine();
