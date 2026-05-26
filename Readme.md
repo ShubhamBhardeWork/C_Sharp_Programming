@@ -410,3 +410,20 @@ Programming";
 1. string.IsNullOrEmpty(< value >)
 1. string.IsNullOrWhiteSpace( < value >)    
 1. string.Empty
+
+
+## StringBuilder:-
+- Used for mutable strings.
+- Better performance for frequent string modifications.
+- Available in `System.Text` namespace.
+
+```cs
+using System.Text;
+
+StringBuilder sb = new StringBuilder();
+
+sb.Append("Hello ");
+sb.Append("World");
+
+Console.WriteLine(sb);
+```
