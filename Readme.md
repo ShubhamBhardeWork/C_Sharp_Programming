@@ -394,3 +394,19 @@ string message = @"Hello
 Welcome to C#
 Programming";
 ```
+
+### String Methods:-
+1. .Length
+1. .Substring(< startIndex >, < length >)
+1. .Trim()
+1. .ToLower()
+1. .ToUpper()
+1. .Contains(< value >)
+1. .Equals(< value >)
+1. .Replace(< oldValue >, < newValue >)
+1. .Split(< separator >)
+1. .StartsWith(< value >)
+1. .EndsWith(< value >)
+1. string.IsNullOrEmpty(< value >)
+1. string.IsNullOrWhiteSpace( < value >)    
+1. string.Empty
