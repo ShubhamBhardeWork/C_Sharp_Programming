@@ -339,3 +339,17 @@ Console.WriteLine("Hello Coders.");
 1. `\"`:- Double quote
 1. `\b`:- Backspace
 1. `\r`:- Carriage return
+
+
+## String:-
+- It is a sequence of characters.
+
+- Strings are immutable → once created, they cannot be modified.
+
+- It is a reference type.
+
+- It is enclosed inside double quotes `("")`.
+
+```cs
+string myName = "Shubham Bharde";
+```
