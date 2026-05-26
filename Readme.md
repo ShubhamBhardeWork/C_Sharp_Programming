@@ -377,3 +377,20 @@ int myAge = 25;
 // String Interpolation
 string info = $"My name is {firstName} {lastName} & my age is {myAge} years old.";
 ```
+
+### String Verbatim:-
+- used for
+    - File paths without escape sequences
+    - Multi-line strings
+
+```cs
+string normalPath = "C:\\Users\\Shubham\\Documents";
+
+// Verbatim String
+string path = @"C:\Users\Shubham\Documents"; 
+
+// Multi-line String
+string message = @"Hello
+Welcome to C#
+Programming";
+```
