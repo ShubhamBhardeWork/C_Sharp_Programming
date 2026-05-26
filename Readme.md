@@ -353,3 +353,27 @@ Console.WriteLine("Hello Coders.");
 ```cs
 string myName = "Shubham Bharde";
 ```
+
+### String Concatenation:-
+- used to combine multiple strings.
+- `+` operator is used for concatenation.
+
+```cs
+string firstName = "Shubham";
+string lastName = "Bharde";
+
+// String Concatenation
+string fullName = firstName + " " + lastName; 
+```
+
+### String Interpolation:-
+- Cleaner and more readable way to format strings.
+
+```cs
+string firstName = "Shubham";
+string lastName = "Bharde";
+int myAge = 25;
+
+// String Interpolation
+string info = $"My name is {firstName} {lastName} & my age is {myAge} years old.";
+```
