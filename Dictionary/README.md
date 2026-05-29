@@ -19,3 +19,15 @@
 
 #### NOTE:-
 ```Internally, Dictionary<TKey, TValue> uses hashing and is implemented using a hash table.```
+
+
+## Dictionary Methods:-
+1. Count
+1. Add(key, value)
+1. Remove(key)
+1. ContainsKey(key)
+1. ContainsValue(value)
+1. TryGetValue(key, out value)
+1. Keys
+1. Values
+1. Clear()
