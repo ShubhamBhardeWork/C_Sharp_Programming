@@ -31,3 +31,61 @@
 1. Keys
 1. Values
 1. Clear()
+
+
+## Hands-on:-
+```cs
+// Empty Dictionary
+var emptyDictionary = new Dictionary<int, string>();
+
+var phonebooks = new Dictionary<string, long>
+{
+    {"Shubham", 9166582689},
+    {"Mom", 5366893269}
+};
+
+
+Console.WriteLine($"Total Contacts:- {phonebooks.Count}");
+
+// READ
+Console.WriteLine($"Mom's number:- {phonebooks["Mom"]}"); // If key does not exist:- throws KeyNotFoundException
+
+// READ (✅ Safe Read using TryGetValue())
+if(phonebooks.TryGetValue("Mom", out long momNumber))
+{
+    Console.WriteLine($"Mom's number:- {momNumber}");
+}
+
+// Add
+phonebooks.Add("Bhagya", 8255765324);
+
+// Update
+if(phonebooks.ContainsKey("Mom"))
+{
+    phonebooks["Mom"] = 8962651374;
+}
+
+// Delete 
+phonebooks.Remove("Mom");
+
+// ContainsKey:- Checks whether key exists
+bool isKeyExists = phonebooks.ContainsKey("Shubham");
+Console.WriteLine($"Shubham key exists:- {isKeyExists}");
+
+// ContainsValue:- Checks whether value exists
+bool isValueExists = phonebooks.ContainsValue(9132054568);
+Console.WriteLine($"'9132054568' value exists:- {isValueExists}");
+
+// Keys & Values
+var phonebookKeys = phonebooks.Keys;
+var phonebookValues = phonebooks.Values;
+
+// Iterate over a Phonebook Dictionary
+foreach(var contact in phonebooks)
+{
+    Console.WriteLine($"{contact.Key} ==> {contact.Value}");
+}
+
+// Clear dictionary
+phonebooks.Clear();
+```
